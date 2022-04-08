@@ -34,7 +34,7 @@ test("division", () => {
         division,
     } = result.current;
     
-    expect(division("4", "2")).toBe("5");
+    expect(division("4", "2")).toBe("2");
 })
 
 test("modulo", () => {
